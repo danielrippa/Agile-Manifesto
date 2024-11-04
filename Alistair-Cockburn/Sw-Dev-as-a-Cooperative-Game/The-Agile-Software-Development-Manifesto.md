@@ -184,3 +184,263 @@ The relatively short development phases, what Scrum call "sprints", allow the pr
 Building a plan is useful. Referring to the plan is useful until it gets too far from the current situation.
 Hanging onto an outdated plan is not useful.
 
+## Reflecting on the Manifesto
+
+The need for different ways of working in different situations is not in the manifesto,
+but Jim Highsmih and I like to keep the point always in mind.
+
+Being _agile_ is different for a 100-person project than for a 10-person  project.
+The agile 100-person project will use a heavier methodology than the agile 10-person project.
+
+Of course, also in keeping with the methodology design principles, it might be
+possible to drop 90 people from the 100-person project, keep the 10 best people
+and then run an agile 10-person project that delivers the same system in the same time frame.
+
+The point is that we agree that methodologies do not come in ones or twos but in dozens,
+each tuned to the situation and project at hand, and each agile.
+This thought is not captured in the Manifesto.
+
+Some of the people in the room recommend agile methodologies primarily for high-flux situations.
+My experience is that rude surprises pop up on even supossedly stable projects.
+I am still waiting to see an occasion when the agile value set is not appropriate.
+
+## Supporting the values
+
+The group of 17 quickly agreed on those value choices.
+Developing the next level of statements proved more than we could settle on
+in the time left in the meeting.
+The values included in this section make up the current working set.
+
+These statemets should evolve as we learn people's perceptions of our words and
+as we come up with more accurate words ourselves.
+I will be surprised if this particular version isn't out of date shortly
+after the book is published.
+
+We expect not to agree on the next level of recommendations, which relate to project tactics:
+how much architecture to develop at what times, what tools to use or avoid, an so on.
+Wee each still have our own experiences, fears, wishes, and philosophies, which
+color our practices and recommendations.
+We will differ at some specificity of recommendation.
+
+These are the sentences we agreed on, and my commentary on each.
+
+> 1. Our highest priority is to satisfy the customer through early and frequent delivery of valuable software
+
+We are interested in delivering software that is fit for its purpose.
+Oddly, some of the companies I visit don't seem to value actually _delivering_ software.
+Agile development is focused on delivering.
+
+Delivering early allows for quick wins and early feedback about the requirements,
+the team, and the process, as we have seen.
+
+Delivering frequently allows for continued wins for the team, rapid feedback and mid-project changes in project direction and priorities.
+
+The duration used for deliveries needs to be negotiated on a project-by-project basis, because delivering updates on a daily or weekly basis can cause more disturbance to the users than it is worth.
+When users can't absorb changes to the system as often as every three months,
+then the project team needs to arrange some other way to get that feedback
+and to make sure that the process works all the way through test and integration.
+
+This statement emphasizes the delivery of those items that have greatest value
+to the customers.
+With consumer mood changes, intensive competition, and stock-markes swings,
+it is nearly impossible to guarantee a revenue stream for a project that
+takes a year or longer to deliver.
+
+This statement indicates that the value will be delivered early, so that
+in case the sponsors lose funding, they will not be left with a pile of
+promissory notes but with working software that delivers something of value to the buyers.
+
+> 2. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference for the shorter timescale.
+
+This half of the "early and frequent" delivery specified the length of the work cycles.
+I have encountered the occasional project that can run incremental development
+with four-month cycles, but most use one- to three-month cycles.
+Using shorter cycles is rare, because users usually can't take in more frequent changes than that.
+
+One project Winnifred, a fixed-price contract involving 50 people over 18 months
+we fixed our cycles for deliveries to users at three months.
+Knowing that this was really too long to wait for feedback, we made sure that
+some expert users cam and had _two_chances to review running code inside each cycle.
+These two user vieweings were scheduled flexibly, usually around the six-week and eigth-week marks.
+
+If the users can accept changes every month, and the development team can match
+the ongoing request for changes, then the shorter feedback cycle is better.
+
+> 3. Working software is the primary measure of progress
+
+This is the third reference to working software.
+This principle puts it firmly: rely on the honesty that comes with running code 
+than on promissory notes in the form of plans and documents.
+You are welcome to use other measures of progress as well, but working code is the one to bank on.
+
+Agile methodologies place a premium on getting something up and running early
+and evolving it over time.
+Not all projects are equally amenable to tiny evolutionary steps..
+Deciding how to break up the giant architecture on a large project into smaller
+pieces that can be built and tested incrementally does take some work.
+It can be done, however, and its worth the effort.
+
+Stephen Mellor is careful to point out that in model-driven development, two
+pieces of code must be demonstrated.
+One is the executable model, which is evaluated for fitness to the user needs.
+The other piece of working code to be demonstrated is the mapping algorithm
+that generates the final code.
+This one is more easily overlooked.
+A number of projects created using a gorgeous executable model and then
+couldn't get the code-generation algorithm to work properly in time.
+
+> 4. Welcome changing requirements, even late in the development. Agile processes harness change for the customer's competitive advantage.
+
+Agile processes can take on late-changing requirements exactly because of
+early and frequent delivery of running software, use of iterative and timeboxing
+techniques, continual attention to architecture and willingness to update the design.
+
+If your company can deliver quickly and respond to late-breaking information and
+your competitor's company can't, then your company can out-manouver your competitors on the software front.
+This often translates to a major difference in the marketplace.
+
+All of the agile methodologies have some mechanism to incorporate late-breaking changes in requirements, as already discussed. The details change by methodology.
+
+> 5. Business people and developers work together daily through the project
+
+The industry is littered with projects whose sponsors did not take the time to make sure they got what they needed.
+Frakes and Fox reported a study showing a strong correlation between links to users
+and project success or failure.
+
+The best links are through onsite business expertise and daily discussions, which
+is what the statement calls for.
+The word "daily" refers to the sweet spot, where discussions are ongoing
+and occur on demand.
+Daily discussions are not practical on most projects, which means that the project
+is not sitting at the sweet spot.
+The statement indicates that the longer it takes to get information to and from
+the developers, the more damage will occur to the project.
+
+> 6. Build around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+
+We wold rather see motivated, skilled people communicating well and using no process at all than a well-defined process used by unmotivated individuals.
+Dee Hock's story about the early VISA system gives an extreme example of this.
+
+Individuals make projects work.
+Their motivation relates to the pride-in-work, amicability, and community on the project.
+
+I first encountered the above statement in a project interview with Dave A. Thomas, then President of the very successful company, Object Technology International.
+He said, "We hire good people, give them the tools and training to get their
+work done, and get out of their way".
+I keep finding evidence supporting his recommendation.
+
+> 7. The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+
+> 8. The best architectures, requirements and designs emerge from self-organizing teams
+
+We had some discussion around the choice of words in this principle.
+How self-organizing do we intend: completely self-organizing, or merely
+allowing good ideas to come from anyone on the project?
+Do we mean _emerge_ misteriously, _emerge_ in small steps over time,
+or _emerge_ as a logical consequence of the human centric rules the team uses?
+
+I prefer the middle of the three choices.
+Jim prefers the latter of the three.
+None of us intends the first of the three, which comes from a misunderstanding
+of the word _emergent_ as "lucky".
+Our common point is recognizing that the details of system design surprise 
+even the most experienced designers.
+
+We insist that the architecture be allowed to adjust over time, just as the
+requirements and process do.
+An architecture that is locked down too hard, too early, will not be able to
+adjust to the inevitable surprises that surface during implementation
+and with changing requirements.
+An architecture that grows in steps can follow the changing knowledge of the
+team and the changing wishes of the user community.
+
+> 9. Continuous attention to technical excellence and good design enhance agility
+
+A tity, well-encapsulated design is easier to change, and that means greater
+agility for the project.
+Therefore, to remain agile, the designers have to produce good designs to begin with.
+They also have to review and improve their designs regularly to deal with the
+better understanding of their design that comes with time and to clean up from
+when they cut corners to meet a short-term goal.
+
+Ward Cunningham sometimes compares cleaning up the design with paying off debts.
+Going further, he discusses managing the technical debt on the project.
+
+Making hasty additions to the system corresponds to borrowing against the future,
+taking on debt. Cleaning up the design corresponds to paying off the debt.
+
+Sometimes, he points out, it is appropriate to take on debt and make hasty
+changes in order to take advantage of an opportunity.
+Just as debt accumulates interest and grows over time, though, so does 
+the cost to the project of not cleaning those hasty design changes.
+
+Cut corners in the design, he suggests, when you are willing to take on the
+debt, and clean up the design to pay off the debt before the interest grows too high.
+
+Given the deep experience present in the room, I found it interesting to
+see this attention to design quality at the same time as I saw the attention
+to short time scales, light documentation and people.
+
+The conflicting forces are resolved by designing as well as the knowledge at
+hand permits, but designing incrementally.
+
+> 10. Agile processes promote sustainable development. The sponsors, developers,
+> and users should be able to maintain a constant pace indefinitely
+
+There are two sides to this statement. One relates to social responsibility,
+the other to project effectiveness.
+Not everyone at the meeting was interested in signing onto the social 
+responsibility platform, but we all agreed on the effectiveness issue.
+
+People tire as they put in long hours.
+Their rate of progress slows, not just during their overtime hours but also
+during their regular hours.
+They introduce more errors into their work.
+Diminishing returns set in with extra hours.
+This is part of the nonlinearity of the human component.
+
+An alert and engaging staff is more agile than a tired, plodding staff,
+even leaving aside all of the social responsibility issues.
+Long hours are a symptom that something has gone wrong with the project layout.
+
+> 11. Simpliciy -the art of maximizing the amount of work not done- is essential.
+
+Simplicity is essential. That much is easy to agree on.
+The notion of simplicity is so subjective, though, that it is difficult
+to say anything useful about it.
+We were therefore pelased to find that we could all support this statement.
+
+In the design of development processes, simplicity has to do with accomplishing
+while _not doing_, maximizing the work not donde while producing good software.
+Jon Kern reminds us of Pascal's remark: "This letter is longer than I wish, for I had not the time to make it shorter". That comment reveals the difficulty of making
+things simple.
+A cumbersome model is easy to produce.
+Producing a simple design that can handle change effectively is more difficult.
+
+In terms of methodology and people, Jim Highsmith liek to cite Dee Hock:
+
+> Simple, clear purpose and principles give rise to complex, intelligent behavior.
+> Complex rules and regulations give rise to simple, stupid behavior.
+
+> 12. At regular intervals, the team reflects on how to become more effective
+> then tunes and adjusts its behavior accordingly.
+
+It is fitting to end where we began.
+How light is right for any one project?
+Barely sufficient, and probably lighter than you expect.
+
+How do we do this on **our** project?
+Bother to reflect on what you are doing.
+If your team will spend one hour together every other week reflecting on its
+working habits, you can evolve your methodology to be agile, effective and fitting.
+If you can't do that, well... you will stay where you are.
+
+## Reflecting on the Support Statements
+
+Getting 17 people to agree on any set of words is difficult.
+The more detailed the advice, the more people's different backgrounds and philosophies come into play.
+
+We hope that the four leading value choices and the twelve supporting statements will give you enough information to build your own agile work habits.
+
+
+
